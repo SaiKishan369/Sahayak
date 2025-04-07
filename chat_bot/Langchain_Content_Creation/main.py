@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-API_KEY = "AIzaSyALlQogAp6P8tj77qFK3PqkSnrILFgQ3lA"
+API_KEY = ""
 
 # Convert natural question into specific prompt (for themed modes)
 def refine_prompt(natural_input: str, mode: str):
